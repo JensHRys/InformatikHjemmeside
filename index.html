@@ -34,23 +34,36 @@
     }
 
     #planet1{
+        position: relative;
        padding-top: 100vh;
-        padding-bottom: 500px;
+        padding-bottom: 100px;
         
     }
     
-     #planet2{
-
-  bottom: 50px;
+   
+     .planet2{
+position: relative;
+  bottom: 0px;
   width: 100%;
- margin-top: 60vh;
+ margin-top: 6vh;
          
          
           }
+     .video
+    {
+        position: absolute;
+            bottom: -2800px;  
+         width:100%;
+    float:left;
+    text-align: center;
+        
+        
+    }
+    
     
     
     .overskrift1 {
-            position:absolute;
+            position: absolute;
             top: 35vh;
             padding-left: 8vw;
         padding-right: 8vw;
@@ -60,7 +73,7 @@
         }
     
     .overskrift2 {
-            position:absolute;
+            position: absolute;
             top: 35vh;
             padding-left: 12vw;
         padding-right: 9vw;
@@ -70,7 +83,7 @@
         }
    
     .tekst1 {
-            position:absolute;
+            position: absolute;
             top: 155vh;
             padding-left: 6vw;
         padding-right: 52vw;
@@ -92,11 +105,7 @@
        
         }
     
-    .video
-    {
-            bottom: 163px;   
-        
-    }
+    
     
     
 #knap {
@@ -175,17 +184,31 @@ På Rysensteen er undervisning sjovt - især science
     
     <!planet2 m/ video:>
     
-    <iframe style="display: block; margin: auto; top: 3600px; box-shadow: 0 0 25px rgba(0,0,0,0.5); margin-bottom: -1400px;" width="800" height="500" src="https://www.youtube.com/embed/QGxoRKP97wk"></iframe> 
+   
     
+ 
+    <div>
+    
+   
+    
+    <div class = "planet2"> 
           
-        <img  id="planet2" src="Images/planet2.png" width="100%" height="1300">
-         
+        
+        <img  src="Images/planet2.png" width="100%" height="1300">
+          
+        
 
-    
+    </div>
      
+    <div class="video">
     
-   
-   
+        
+        <iframe style=" margin: 0 auto; box-shadow: 0 0 25px rgba(0,0,0,0.5); " width="800vw" height="500" src="https://www.youtube.com/embed/QGxoRKP97wk"></iframe>
+    
+    </div>
+    
+    
+    </div>
     
     
     <!fod:>
